@@ -5,8 +5,8 @@
 
 # Install Kibana 
 
-- name: Install Kibana with apt
-  apt:
+- name: Install Kibana
+  yum:
    name: kibana
    update_cache: yes
  
